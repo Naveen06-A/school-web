@@ -1,0 +1,71 @@
+.student-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.student-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.student-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.student-info {
+  flex: 1;
+  margin-left: 16px;
+}
+
+.student-name {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.student-email {
+  margin: 0 0 2px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.student-phone {
+  margin: 0 0 8px 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.grade-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+}
+
+.grade-A, .grade-Aplus {
+  background: #28a745;
+}
+
+.grade-Aminus, .grade-Bplus {
+  background: #17a2b8;
+}
+
+.grade-B {
+  background: #ffc107;
+  color: #333;
+}
+
+.grade-Bminus, .grade-C {
+  background: #fd7e14;
+}

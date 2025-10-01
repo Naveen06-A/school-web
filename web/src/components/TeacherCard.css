@@ -1,0 +1,73 @@
+.teacher-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.teacher-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.teacher-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.teacher-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.teacher-name {
+  margin: 0 0 8px 0;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.teacher-subject {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.teacher-experience {
+  margin: 0 0 4px 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.teacher-email {
+  margin: 0 0 8px 0;
+  color: #007AFF;
+  font-size: 0.9rem;
+}
+
+.student-count {
+  margin: 0;
+  color: #28a745;
+  font-weight: 500;
+}
+
+.view-students-btn {
+  background: #007AFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.view-students-btn:hover {
+  background: #0056cc;
+}
