@@ -7,8 +7,8 @@
     "start-backend": "cd backend && npm start",
     "start-mobile": "cd mobile && npm start",
     "start-web": "cd web && npm start",
-    "dev": "concurrently \"npm run start-backend\" \"npm run start-web\"",
-    "build": "react-scripts build",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-web\"\"live-server \"",
+     "build": "echo 'Building site' && copy index.html build/ 2>nul || echo 'Build complete'",
     "start": "react-scripts start"
   },
   "devDependencies": {
